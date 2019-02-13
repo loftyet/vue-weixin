@@ -148,7 +148,7 @@
 		props: ['mepart',],
 		created(){
 
-			this.gifSrc=imgurl+'reminder.gif';
+			this.gifSrc=imgurl //+'reminder.gif';
 		},
 		beforeDestroy(){
             clearTimeout(this.timer) 
@@ -157,7 +157,7 @@
 			this.getUserInfo();
 		},
 		mounted(){
-			this.userHeader=imgurl + this.userInfo.avatar
+			this.userHeader=imgurl //+ this.userInfo.avatar
 			circle().then( (res) =>{
 				for(let i=0; i < res.length; i++){
 					this.newGetImage=res[0].headurl;

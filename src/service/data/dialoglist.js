@@ -22,7 +22,7 @@ import {imgurl} from 'src/config/env';
 export const dialog = [
 {
 	"wxid":"fileTransfer",
-	"headurl":imgurl+'robot.jpg',
+	"headurl": "https://picsum.photos/200/300/?random",//imgurl+'robot.jpg',
 	"petname":"机器人聊天",
 	"remarks":"机器人聊天",
 	"newmeassage":"请从通讯录的联系人进入机器人单人聊天",

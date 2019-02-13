@@ -16,7 +16,7 @@ export const groupchat={
 	"grouphead":[
 		{
 			"username":"chenchangsheng",
-			"avatar":imgurl+'chenchangsheng.jpg',
+			"avatar":imgurl, //+'chenchangsheng.jpg',
 			"petname":"陈长生",
 			"remarks":"",
 			"content":"今天下雨",
@@ -24,14 +24,14 @@ export const groupchat={
 		},
 		{
 			"username":"812571880",
-			"avatar":imgurl+'chen.jpg',
+			"avatar":imgurl, //+'chen.jpg',
 			"petname":"百里辰",
 			"content":"今天下雨",
 			"sendobject":1,
 		},
 		{
 			"username":"achuqiao",
-			"avatar":imgurl+'chuqiao.jpg',
+			"avatar":imgurl, //+'chuqiao.jpg',
 			"petname":"a楚乔",
 			"remarks":"楚乔",
 			"sendobject":1,
@@ -39,7 +39,7 @@ export const groupchat={
 		},
 		{
 			"username":"caiawei",
-			"avatar":imgurl+'caiwei.jpg',
+			"avatar":imgurl, //+'caiwei.jpg',
 			"petname":"采薇",
 			"remarks":"",
 			"phone":"13000000000",

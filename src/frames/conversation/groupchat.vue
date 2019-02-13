@@ -17,7 +17,8 @@
 					<li v-for="item in groupconversine" >
 						<div class="other" :class="{mysay : item.user_id == userInfo.id }">
 							<div class="say-time">{{item.time}}</div>
-							<img :src="imgurl + item.avatar" alt="" @click="enlargeImg(item.avatar)">
+							<img :src="imgurl" alt="" @click="enlargeImg(item.avatar)">
+							<!-- <img :src="imgurl + item.avatar" alt="" @click="enlargeImg(item.avatar)"> -->
 							<div class="whatsay">
 								
 								<div class="whatsay_svg">
@@ -107,7 +108,8 @@
 			</section>
 		</footer>
 		<section class="enlarge" v-if="enlarge" @click="enlargeHide" :class="{'movein-animate' : enlargeShow, 'moveout-animate-leave' : enlargehides}" >
-			<img :src="imgurl + enlargeurl" alt="">
+			<!-- <img :src="imgurl + enlargeurl" alt=""> -->
+			<img :src="imgurl" alt="">
 		</section>
 		<transition name="router-show">
 		    <router-view></router-view>
@@ -124,7 +126,7 @@
 	import 'src/config/swiper.min.js' 
 	import 'src/style/swiper.min.css'
 	import fetch from 'src/config/fetch'
-	const socket = io('http://cangdu.org:8003');
+	const socket = io('http://localhost:8003');
 	export default{ 
 		data(){
 			return{

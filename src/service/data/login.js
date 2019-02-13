@@ -22,14 +22,15 @@ import {imgurl} from 'src/config/env';
 
 export const userInfo = {
 	"wxid":"812571880",
-	"headurl":imgurl+'chen.jpg',
+	"headurl":imgurl, //+'chen.jpg',
 	"petname":"百里辰",
 	"sex":1,
 	"sdasd":"逆天改命",
 	"phone":"15800319949",
 	"sendobject":0,
 	"gallery":[
-		imgurl+'chen.jpg',imgurl+'cangdu.jpg',imgurl+'b1.jpg'
+		imgurl, imgurl, imgurl
+		//imgurl+'chen.jpg',imgurl+'cangdu.jpg',imgurl+'b1.jpg'
 	],
 	"district":"上海 闵行",
 	"newmeassage":"你的肩膀，那么近却那么远，到最后想说的话都未曾讲。",

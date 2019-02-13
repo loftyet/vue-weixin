@@ -27,7 +27,7 @@ import {imgurl} from 'src/config/env';
 export const circle= [
 	{
 		"wxid":"chenchangsheng",
-		"headurl":imgurl+'chenchangsheng.jpg',
+		"headurl":imgurl, //+'chenchangsheng.jpg',
 		"petname":"陈长生",
 		"sex":0,
 		"remarks":"",
@@ -45,14 +45,15 @@ export const circle= [
 		"suporthtml":"赞",		
 	},{
 		"wxid":"812571880",
-		"headurl":imgurl+'chen.jpg',
+		"headurl":imgurl, //+'chen.jpg',
 		"petname":"百里辰",
 		"sex":1,
 		"remarks":"",
 		"statements":"身边总有几个这样的朋友，第一次遇见斯斯文文的，熟识之后会发与不知道是哪个精神病院放出来的。",
 		"time":"5分钟前",
 		"postimage":[
-			imgurl+'chen.jpg',imgurl+'cangdu.jpg',imgurl+'chuqiao.jpg',imgurl+'h.jpg',imgurl+'dinglan.jpg',imgurl+'fengmian.jpg',
+			imgurl, imgurl, imgurl
+//			imgurl+'chen.jpg',imgurl+'cangdu.jpg',imgurl+'chuqiao.jpg',imgurl+'h.jpg',imgurl+'dinglan.jpg',imgurl+'fengmian.jpg',
 		],
 		"like":[
 			"嗯",
@@ -80,14 +81,14 @@ export const circle= [
 	
 	{
 		"wxid":"chenyuan",
-		"headurl":imgurl+'chenyuan.jpg',
+		"headurl":imgurl, //+'chenyuan.jpg',
 		"petname":"程鸢",
 		"sex":0,
 		"remarks":"",
 		"statements":"",
 		"time":"20分钟前",
 		"postimage":[
-			imgurl+'d.jpg',
+			imgurl, //+'d.jpg',
 		],
 		"like":[],
 		"comment":[
@@ -112,14 +113,15 @@ export const circle= [
 	},
 	{
 		"wxid":"shugeuifei",
-		"headurl":imgurl+'mengfeng.jpg',
+		"headurl":imgurl, //+'mengfeng.jpg',
 		"petname":"魏贵妃",
 		"sex":0,
 		"remarks":"",
 		"statements":"",
 		"time":"1小时前",
 		"postimage":[
-			imgurl+'mengfeng.jpg',imgurl+'wudaoya.jpg',
+			imgurl, imgurl,
+			// imgurl+'mengfeng.jpg',imgurl+'wudaoya.jpg',
 		],
 		"like":[],
 		"comment":[
